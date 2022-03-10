@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zxx" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <title>Download</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="" />
+    <script src = "/lib/d3.min.js"></script>
+    <script src="lib/vue.js">
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!--// Meta tag Keywords -->
+
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Font-Awesome-Icons-CSS -->
+    <!-- //Custom-Files -->
+
+    <!-- Web-Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800&amp;subset=devanagari,latin-ext" rel="stylesheet">
+    <!-- //Web-Fonts -->
+</head>
+
+<body>
+<!-- main -->
+<div id="home">
+    <!-- top header -->
+    <header>
+        <div class="top-bar py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6 col-md-8 top-social-agile text-lg-left text-center">
+                        <div class="row">
+                            <div class="col-4 header-top_w3layouts">
+                                <p class="text-bl">
+                                    <span class="fa fa-map-marker mr-2"></span>Chengdu
+                                </p>
+                            </div>
+                            <div class="col-4 header-top_w3layouts">
+                                <p class="text-bl">
+                                    <span class="fa fa-phone mr-2"></span>暂无
+                                </p>
+                            </div>
+                            <!--								&lt;!&ndash; social icons &ndash;&gt;-->
+                            <!--								<ul class="col-4 top-right-info">-->
+                            <!--									<li>-->
+                            <!--										<a href="#">-->
+                            <!--											<span class="fa fa-facebook-f"></span>-->
+                            <!--										</a>-->
+                            <!--									</li>-->
+                            <!--									<li class="mx-3">-->
+                            <!--										<a href="#">-->
+                            <!--											<span class="fa fa-twitter"></span>-->
+                            <!--										</a>-->
+                            <!--									</li>-->
+                            <!--									<li>-->
+                            <!--										<a href="#">-->
+                            <!--											<span class="fa fa-google-plus"></span>-->
+                            <!--										</a>-->
+                            <!--									</li>-->
+                            <!--									<li class="ml-3">-->
+                            <!--										<a href="#">-->
+                            <!--											<span class="fa fa-pinterest-p"></span>-->
+                            <!--										</a>-->
+                            <!--									</li>-->
+                            <!--								</ul>-->
+                            <!--								&lt;!&ndash; //social icons &ndash;&gt;-->
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6 col-md-4 top-social-agile text-md-right text-center mt-md-0 mt-2">
+                        <div class="row">
+                            <div class="offset-xl-6 offset-lg-4">
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-6 top-w3layouts p-md-0 text-right">
+                                <!--									&lt;!&ndash; login &ndash;&gt;-->
+                                <!--									<a href="login.html" class="login-button-2 text-uppercase text-bl">-->
+                                <!--										<span class="fa fa-sign-in mr-2"></span>Login</a>-->
+                                <!--									&lt;!&ndash; //login &ndash;&gt;-->
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-6 header-w3layouts text-md-right text-left">
+                                <!--									&lt;!&ndash; register &ndash;&gt;-->
+                                <!--									<a href="register.html" class="login-button-2 text-uppercase text-bl">-->
+                                <!--										<span class="fa fa-pencil-square-o mr-2"></span>Register</a>-->
+                                <!--									&lt;!&ndash; //register &ndash;&gt;-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- //top header -->
+
+    <!-- second header -->
+    <div class="main-top">
+        <div class="container">
+            <div class="header d-md-flex justify-content-between align-items-center py-3">
+                <!-- logo -->
+                <div id="logo">
+                    <h1>
+                        <a>
+                            <span class="logo-sp">Download</span> Resource
+                        </a>
+                    </h1>
+                </div>
+                <!-- //logo -->
+                <!-- nav -->
+                <div class="nav_w3ls">
+                    <nav>
+                        <label for="drop" class="toggle">Menu</label>
+                        <input type="checkbox" id="drop" />
+                        <ul class="menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="mx-lg-4 mx-md-3 my-md-0 my-2"><a href="about.html">About Us</a></li>
+                            <li><a href="KnowledgeGraph.html">KnowledgeGraph</a></li>
+                            <li class="mx-lg-4 mx-md-3 my-md-0 my-2">
+                                <!-- First Tier Drop Down -->
+                                <label for="drop-2" class="toggle toogle-2">Service <span class="fa fa-angle-down" aria-hidden="true"></span>
+                                </label>
+                                <a href="#">Service <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                                <input type="checkbox" id="drop-2" />
+                                <ul>
+                                    <li><a href="transform.html" class="drop-text">可视化分析</a></li>
+                                    <li><a href="download.html" class="drop-text active">Download</a></li>
+                                    <li><a href="update.html" class="drop-text">Update</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li class="mx-lg-4 mx-md-3 my-md-0 my-2"><a href="document.html">说明文档</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- //nav -->
+            </div>
+        </div>
+    </div>
+    <!-- //second header -->
+
+    <!-- banner -->
+    <div class="main-banner-2">
+
+    </div>
+    <!-- //banner -->
+</div>
+<!-- //main -->
+
+<!-- page details -->
+<div class="breadcrumb-agile py-1">
+    <ol class="breadcrumb m-0">
+        <li class="breadcrumb-item">
+            <a href="index.html">Home</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Download</li>
+    </ol>
+</div>
+<!-- //page details -->
+
+<!-- about  -->
+<section class="about py-5">
+    <div class="container py-xl-5 py-lg-3">
+        <div class="title-section mb-md-5 mb-4">
+            <h6 class="w3ls-title-sub">Resource</h6>
+            <h3 class="w3ls-title text-uppercase text-bl font-weight-bold">API</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 agileits_works-grid">
+                <div class="wthree-bottom" id="resource">
+                    <h6 class="subheading-w3ls text-uppercase text-bl mb-4">资源下载接口</h6>
+                    <ul class="list-group">
+                        <li class="list-group-item" v-for="name in resourceName"><a :href="resourceUrl[0]">{{name}}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //about -->
+
+<!-- move top icon -->
+<a href="#home" class="move-top text-center"></a>
+<!-- //move top icon -->
+
+</body>
+<script>
+    new Vue({
+        el:"#resource",
+        data:{
+            resourceUrl:["../script/ReadData.R",
+            "../script/DotPlot.R",
+            "../script/Heatmap.R",
+            "../script/pseudotime.R",
+            "../script/pseudotime_heatmap.R",
+            "../script/RidgePlot.R",
+            "../script/tSNE.R",
+            "../script/UMAP.R",
+            "../script/ViolinPlot.R"],
+            resourceName:["ReadData","DotPlot","Heatmap","preudotime","pseudotime_heatmap","RidgePlot","tSNE","UMAP","Violin"]
+        }
+    })
+</script>
+</html>

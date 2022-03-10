@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Document</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+    <script src = "/lib/d3.min.js"></script>
+	<script src="lib/vue.js">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!--// Meta tag Keywords -->
+
+	<!-- Custom-Files -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Bootstrap-Core-CSS -->
+	<link href="css/single.css" rel='stylesheet' type='text/css' />
+	<!-- single page -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- Font-Awesome-Icons-CSS -->
+	<!-- //Custom-Files -->
+
+	<!-- Web-Fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800&amp;subset=devanagari,latin-ext" rel="stylesheet">
+	<!-- //Web-Fonts -->
+</head>
+
+<body>
+	<!-- main -->
+	<div id="home">
+		<!-- top header -->
+		<header>
+			<div class="top-bar py-3">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-5 col-lg-6 col-md-8 top-social-agile text-lg-left text-center">
+							<div class="row">
+								<div class="col-4 header-top_w3layouts">
+									<p class="text-bl">
+										<span class="fa fa-map-marker mr-2"></span>Chengdu
+									</p>
+								</div>
+								<div class="col-4 header-top_w3layouts">
+									<p class="text-bl">
+										<span class="fa fa-phone mr-2"></span>暂无
+									</p>
+								</div>
+<!--								&lt;!&ndash; social icons &ndash;&gt;-->
+<!--								<ul class="col-4 top-right-info">-->
+<!--									<li>-->
+<!--										<a href="#">-->
+<!--											<span class="fa fa-facebook-f"></span>-->
+<!--										</a>-->
+<!--									</li>-->
+<!--									<li class="mx-3">-->
+<!--										<a href="#">-->
+<!--											<span class="fa fa-twitter"></span>-->
+<!--										</a>-->
+<!--									</li>-->
+<!--									<li>-->
+<!--										<a href="#">-->
+<!--											<span class="fa fa-google-plus"></span>-->
+<!--										</a>-->
+<!--									</li>-->
+<!--									<li class="ml-3">-->
+<!--										<a href="#">-->
+<!--											<span class="fa fa-pinterest-p"></span>-->
+<!--										</a>-->
+<!--									</li>-->
+<!--								</ul>-->
+<!--								&lt;!&ndash; //social icons &ndash;&gt;-->
+							</div>
+						</div>
+						<div class="col-xl-7 col-lg-6 col-md-4 top-social-agile text-md-right text-center mt-md-0 mt-2">
+							<div class="row">
+								<div class="offset-xl-6 offset-lg-4">
+								</div>
+								<div class="col-xl-3 col-lg-4 col-6 top-w3layouts p-md-0 text-right">
+<!--									&lt;!&ndash; login &ndash;&gt;-->
+<!--									<a href="login.html" class="login-button-2 text-uppercase text-bl">-->
+<!--										<span class="fa fa-sign-in mr-2"></span>Login</a>-->
+<!--									&lt;!&ndash; //login &ndash;&gt;-->
+								</div>
+								<div class="col-xl-3 col-lg-4 col-6 header-w3layouts text-md-right text-left">
+<!--									&lt;!&ndash; register &ndash;&gt;-->
+<!--									<a href="register.html" class="login-button-2 text-uppercase text-bl">-->
+<!--										<span class="fa fa-pencil-square-o mr-2"></span>Register</a>-->
+<!--									&lt;!&ndash; //register &ndash;&gt;-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- //top header -->
+
+		<!-- second header -->
+		<div class="main-top">
+			<div class="container">
+				<div class="header d-md-flex justify-content-between align-items-center py-3">
+					<!-- logo -->
+					<div id="logo">
+						<h1>
+							<a>
+								<span class="logo-sp">说明</span> 文档
+							</a>
+						</h1>
+					</div>
+					<!-- //logo -->
+					<!-- nav -->
+					<div class="nav_w3ls">
+						<nav>
+							<label for="drop" class="toggle">Menu</label>
+							<input type="checkbox" id="drop" />
+                            <ul class="menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="mx-lg-4 mx-md-3 my-md-0 my-2"><a href="about.html">About Us</a></li>
+                                <li><a href="KnowledgeGraph.html">KnowledgeGraph</a></li>
+                                <li class="mx-lg-4 mx-md-3 my-md-0 my-2">
+                                    <!-- First Tier Drop Down -->
+                                    <label for="drop-2" class="toggle toogle-2">Service <span class="fa fa-angle-down" aria-hidden="true"></span>
+                                    </label>
+                                    <a href="#">Service <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                                    <input type="checkbox" id="drop-2" />
+                                    <ul>
+                                        <li><a href="transform.html" class="drop-text">可视化处理</a></li>
+                                        <li><a href="download.html" class="drop-text">Download</a></li>
+                                        <li><a href="update.html" class="drop-text">Update</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li class="mx-lg-4 mx-md-3 my-md-0 my-2"><a href="document.html" class="active">说明文档</a></li>
+                            </ul>
+						</nav>
+					</div>
+					<!-- //nav -->
+				</div>
+			</div>
+		</div>
+		<!-- //second header -->
+
+		<!-- banner -->
+		<div class="main-banner-2">
+
+		</div>
+		<!-- //banner -->
+	</div>
+	<!-- //main -->
+
+	<!-- page details -->
+	<div class="breadcrumb-agile py-1">
+		<ol class="breadcrumb m-0">
+			<li class="breadcrumb-item">
+				<a href="index.html">Home</a>
+			</li>
+			<li class="breadcrumb-item active" aria-current="page">说明文档</li>
+		</ol>
+	</div>
+	<!-- //page details -->
+
+	<!-- single -->
+	<div class="blog-w3l py-5">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="title-section mb-sm-5 mb-4">
+				<h6 class="w3ls-title-sub">Some More</h6>
+				<h3 class="w3ls-title text-uppercase text-dark font-weight-bold">说明文档</h3>
+			</div>
+			<div class="blog_section px-lg-5">
+				<div class="card border-0">
+					<a href="#">
+						<img src="images/single.jpg" alt="" class="img-fluid">
+					</a>
+					<div class="card-body p-0 py-4">
+						<div class="row border-bottom pb-3">
+							<div class="col-sm-6 col-4 perso-wthree">
+								<h6 class="blog-first text-bl">
+									<span class="fa fa-user mr-2"></span>四川大学大创团队
+								</h6>
+							</div>
+<!--							<div class="col-sm-6 col-8 info-commt text-right">-->
+<!--								<ul class="blog_list">-->
+<!--									<li>Jan 16, 2019</li>-->
+<!--									<li class="mx-3">-->
+<!--										<a href="#">-->
+<!--											<span class="fa fa-heart-o mr-1"></span>30-->
+<!--										</a>-->
+<!--									</li>-->
+<!--									<li>-->
+<!--										<a href="#">-->
+<!--											<span class="fa fa-comments-o mr-1"></span>18-->
+<!--										</a>-->
+<!--									</li>-->
+<!--								</ul>-->
+<!--							</div>-->
+						</div>
+						<p class="card-text">随着网站的成功搭建，能对目前缺乏研究的类脑单细胞领域形成可视化服务，还能形成让用户查看的相关的知识图谱，
+                            拓展了知识宽度，我们相信这对于生物和计算机的结合是具有重大意义的.</p>
+					</div>
+				</div>
+				<p>PubMed 是一个提供生物医学方面的论文搜寻以及摘要，并且免费搜寻的数据库。PubMed是因特网上使用最广泛的免费MEDLINE,是美国国家医学图书馆(NLM)所属的国家生物技术信息中心(NCBI)于2000年4月开发的,基于WEB的生物医学信息检索系统,它是NCBI Entrez整个数据库查询系统中的一个。PubMed界面提供与综合分子生物学数据库的链接，其内容包括：DNA与蛋白质序列，基因图数据，3D蛋白构象，人类孟德尔遗传在线，也包含着与提供期刊全文的出版商网址的链接等。
+                    GEO数据库全称GENE EXPRESSION OMNIBUS，成立于2000年，是由美国国立生物技术信息中心NCBI创建并维护的基因表达数据库，主要收录高通量基因表达数据。除SRA数据库之外，GEO数据库也是目前文章投递数据上传的数据库之一。
+                    Allen Brain Atlas，是一个基于网页技术的数据库，提供了高分辨率的解剖图、基因组范围的原位杂交图以及微阵列数据，包括了人，大鼠，小鼠，转基因鼠等全脑基因表达三维图谱，揭示区域性基因表达和脑生理功能间的相互关系。
+                    语料库构建过程首先从Allen Brain Atlas官网搜索关于脑的结构图以及每个部分的标注图，由于本项目只针对类脑细胞且类脑细胞只包括脑的部分分区所以我们用脑器官的本体结构术语作为语料库的参考。再通过人工手动筛选部分语料得到针对类脑单细胞数据的语料库，进一步通过专家评审覆盖性，准确性，语义重复性进行后期的处理。（这里还可以参考GO本体库）
+                    对本体选择类脑细胞的研究部分，再去 PubMed数据库搜索关于类脑细胞的文献摘要，因为摘要基本包含了文章主要的研究内容且网站数据为开源。 对本分摘要文本进行人工标注并抽取部分关系。实体识别阶段，首先利用自然语言处理工具NLTK断句并结合生物医学领域命名规范和统计规律（最大词长，最小词长，平均词长），定义句法和语法规则加以修正，语句序列以文献为单位组织，
+                    作为实体识别和关系抽取的输入单元。通过人为的筛选部分摘要中的与语料库匹配的专业术语进行实体识别和由共现语句提取候选关系元组并计算置信度，对同一语句所提取的多项候选关系不在按照置信度进行大小排序并清洗保证更多的潜在关系得以发现为前提，最终结合候选关系元组与实体共现语句，构建预处理映射数据集并经过有生物学知识的人进行复审修改。语义关系构建阶段，
+                    对之前的预处理数据集进行人工校验，剔除多余成分和结构，保留一致内容形成初始关系词表。这样就得到一部分的本体，并作为深度学习模型的数据集。深度模型采用基于PCNNs改进的模型，能对实体进行识别，对未建立关系的实体之间补充关系，形成完整的知识图谱。再将知识图谱存入图数据库供网站后端搜索
+                </p>
+				<p class="my-3">本项目的单细胞转录组数据主要来源于公开的数据平台，如NCBI、GEO等网站以及各类相关论文提供
+                    的数据。
+                    本项目主要依靠R语言实现数据分析的可视化功能。目前在单细胞转录组分析方面需要的R语言工具包大体上包括：
+                    Seurat，Monocle2，randomForest，mpmi，igraph，借鉴在处理其他生物学材料的方法，结合类脑单细
+                    胞转录组数据的特点进行算法的设计，以更好地表达数据的深层意义
+                </p>
+				<p>本项目首先要搭建类脑单细胞语料库，以类脑单细胞为数据基础，从而构建以类脑单细胞测序数据为本体的知识图谱
+                    ，然后通过R/Python语言将类脑细胞转录数据可视化，进而通过可视化数据深入分析类脑单细胞基因间潜在的联系
+                    ，完善知识图谱搭建。并且提供网站为用户展现知识图谱以及相关图像进行更深层次的研究
+				</p>
+				<p>单细胞转录组测序数据的分析和应用是近年来比较前沿的课题。尽管近年来发展较快，但针对类脑器官单细胞的数据及其分析并不算多，迫切需要建立类脑知识图谱，提供相应的可视化功能。
+                    使用公开数据构建针对类脑单细胞转录组的知识图谱，通过网站的可视化功能方便生物学者分析研究数据，是非常必要的</p>
+				<div class="comment-top mt-5">
+<!--					<h4>Comments</h4>-->
+<!--					<div class="media">-->
+<!--						<img src="images/te1.jpg" alt="" class="img-fluid" />-->
+<!--						<div class="media-body pt-xl-2 pl-3">-->
+<!--							<h5 class="mb-2">Joseph Goh</h5>-->
+<!--							<p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. id dignissim sapien velit id felis ac-->
+<!--								cursus eros.-->
+<!--								Cras a ornare elit.</p>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="media mt-5">-->
+<!--						<img src="images/te2.jpg" alt="" class="img-fluid" />-->
+<!--						<div class="media-body  pt-xl-2 pl-3">-->
+<!--							<h5 class="mb-2">Goh James</h5>-->
+<!--							<p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. id dignissim sapien velit id felis ac-->
+<!--								cursus eros.-->
+<!--								Cras a ornare elit.</p>-->
+<!--						</div>-->
+<!--					</div>-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //single -->
+
+
+<!--	&lt;!&ndash; footer &ndash;&gt;-->
+<!--	<footer class="py-5">-->
+<!--		<div class="container py-xl-5 py-lg-3">-->
+<!--			<div class="row">-->
+<!--				<div class="col-lg-7 w3l-footer">-->
+<!--					&lt;!&ndash; logo &ndash;&gt;-->
+<!--					<div class="logo2">-->
+<!--						<h2>-->
+<!--							<a href="index.html">-->
+<!--								<span class="fa fa-user-md mr-2"></span>-->
+<!--								<span class="logo-sp">Be</span> Clinic-->
+<!--							</a>-->
+<!--						</h2>-->
+<!--					</div>-->
+<!--					&lt;!&ndash; //logo &ndash;&gt;-->
+<!--					<p class="mt-4 text-li">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque-->
+<!--						laudantium, totam rem-->
+<!--						aperiam,-->
+<!--						eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>-->
+<!--					<ul class="list-unstyled list-styles mt-lg-5 mt-4">-->
+<!--						<li>-->
+<!--							<p class="text-li"><span class="fa fa-location-arrow mr-2"></span>Morris Park, New York</p>-->
+<!--						</li>-->
+<!--						<li class="my-3">-->
+<!--							<p class="text-li"><span class="fa fa-phone mr-2"></span>1234567890</p>-->
+<!--						</li>-->
+<!--						<li>-->
+<!--							<a href="mailto:info@example.com" class="text-wh"><span class="fa fa-envelope-open mr-2"></span>mail@example.com</a>-->
+<!--						</li>-->
+<!--					</ul>-->
+<!--				</div>-->
+<!--				<div class="col-lg-5 w3l-footer mt-lg-0 mt-5">-->
+<!--					<h3 class="mb-sm-4 mb-3 text-wh">Partners</h3>-->
+<!--					<ul class="list-unstyled list-part text-wh pt-lg-3">-->
+<!--						<li><span class="fa fa-500px" aria-hidden="true"></span></li>-->
+<!--						<li class="mx-4"><span class="fa fa-gg" aria-hidden="true"></span></li>-->
+<!--						<li><span class="fa fa-lastfm" aria-hidden="true"></span></li>-->
+<!--						<li class="mx-4"><span class="fa fa-openid" aria-hidden="true"></span></li>-->
+<!--						<li><span class="fa fa-angellist" aria-hidden="true"></span></li>-->
+<!--					</ul>-->
+<!--					<div class="n-right-w3ls mt-5 pt-lg-4">-->
+<!--						<h3 class="mb-sm-4 mb-3 text-wh">Newsletter</h3>-->
+<!--						<form action="#" method="post">-->
+<!--							<div class="row pt-2">-->
+<!--								<div class="col-8 form-group">-->
+<!--									<input class="form-control" type="email" name="Email" placeholder="Email Address" required="">-->
+<!--								</div>-->
+<!--								<div class="col-4 form-group p-sm-0 pl-0">-->
+<!--									<button class="form-control submit btn font-weight-bold" type="submit">Subscribe</button>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</form>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</footer>-->
+<!--	&lt;!&ndash; //footer &ndash;&gt;-->
+
+	<!-- move top icon -->
+	<a href="#home" class="move-top text-center"></a>
+	<!-- //move top icon -->
+
+</body>
+
+</html>
